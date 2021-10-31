@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+img{
+    height: 100vh;
+    width: 75vw;
+}
+
+body{
+    font-family: 'Manrope', sans-serif; 
+    background-color: #9ec1d7;
+}
+
+
+
+.navbar{
+    background-color:#18465a;
+    height: 9vh;
+    color: #eff1ee;
+    
+}
+
+.navbar a{
+    text-decoration: none; 
+    color: #eff1ee;
+    font-size: 1.4rem;
+    font-family: 'Manrope', sans-serif;
+}
+
+.navbar a:hover{
+    color: #9ec1d7;
+}
+
+.tagl{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    color: #18465a;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.serv i{
+    border-bottom: 6px #18465a;
+}
+
+.cnter-box{
+    background-color: #9ec1d7;
+}
+.services{
+    padding-top: 100px;
+    
+    
+}
+
+.services .fa-color h1{
+    color: #18465a;
+}
+
+.services a{
+    text-decoration: none;
+    font-size: 35px;
+}
+
+.serv{
+   margin: 0 40px;
+   padding: 20px 30px;
+}
+
+.serv i{
+    padding: 20px;
+    border-bottom: 6px #18465a solid;
+    border-radius: 6px;
+    transition: ease-out 0.5s;
+}
+.serv h1{
+    padding: 6px;
+}
+.serv i:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.grid1{
+    display: grid;
+    width: 100vw;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.card{
+    height: 50vh;
+    
+}
+
+.card-body button{
+    background-color: #9ec1d7;
+    border-color: #18465a;
+    border-width: 2px;
+
+}
+.cb{
+    padding-left: 5em;
+    position: absolute;
+    top: 14em;
+}
+
+.col .card{
+    background-color: #9ec1d7;
+}
+.containertwo{
+    background-color: #18465a;
+    color: #1c1b27;
+    padding: 100px 0;
+    text-align: center;
+}
+
+
+.containertwo .col{
+    text-align: center;
+}
+.containertwo p{
+    color: #eff1ee;
+    font-size: 1.6rem;
+}
+.package{
+    padding: 80px 0 40px 0;
+}
+.gatext {
+    font-size: 3rem;
+    text-decoration: none;
+    color: #9ec1d7;
+    padding-bottom: 15px;
+}
+.col .gatext:hover{
+    color: #eff1ee;
+    font-weight: normal;
+}
+
+.containerthree{
+    text-align: center;
+    background-color: #9ec1d7
+}
+
+.package .gatext{
+    color: #18465a;
+}
+.package .gatext:hover{
+    color: #eff1ee;
+}
+.package p{
+    color: #1c1b27;
+    font-size: 1.6rem;
+}
+.containerthree .col .card{
+    background-color: #eff1ee;
+    border:3px solid #eff1ee;
+}
+
+.card-grid{
+    width: 80vw;
+    height: auto;
+    align-content: center;
+}
+
+
+.text-muted{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+.card-deck{
+    width: 80%;
+}
+.col .conatiner h2{
+    color: #eff1ee;
+}
+.col .card{
+    border:3px solid #9ec1d7;
+    margin: 20px;
+    border-radius: 30px;
+    transition: ease-out o0.5s;
+}
+
+.col .card:hover{
+    transform: scale(0.9);
+    transition: ease-in-out 0.5s;
+
+}
+
+.col img{
+    border-radius: 28px;
+}
+
+.card-grid .card{
+    height: 70%;
+}
+
+.button{
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #18465a;
+    border: 2px solid #18465a;
+}
+.button a{
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #9ec1d7;
+    color: #eff1ee;
+    border: 2px solid #eff1ee;
+  }
+
+.focon .col a{
+    color: #788892;
+    font-size: 1.2rem;
+}
+.focon .col a:hover{
+    color: #eff1ee;
+    font-weight: normal;
+}
+
+
+
+.wave .focon{
+    background-color: #18465a;
+    padding-bottom: 25px;
+}
+.focon i{
+    padding: 10px;
+}
+.focon ul .a{
+    text-decoration: none;
+}
+.wave .fa-color{
+    color: #788892;
+}
+.wave .fa-color:hover{
+    color: #eff1ee;
+}
+
+/*Form*/
+
+.form{
+    margin-bottom: 60px;
+}
+.form h1{
+    text-align: center;
+    margin: 0 10px 10px 20px;
+    padding: 0 10px 10px 60px;
+    font-weight: bold;
+}
+.formel{
+    color: #1c1b27;
+    font-size: 1.3rem;
+    font-weight: 500;
+} 
+
+/*About Us*/
+.breadcrumb-item{
+    font-size: 1.6rem;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: #eff1ee;
+    font-weight: bold;
+}
+
+.aboutus img{
+    width: 25vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.aboutus h1{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+}
+.aboutus a{
+    text-decoration: none;
+    color: #18465a;
+}
+.aboutus p{
+    font-size: 1.3rem;
+    color: #1c1b27;
+    padding-bottom: 50px;
+}
