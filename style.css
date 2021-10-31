@@ -286,3 +286,14 @@ body{
     color: #1c1b27;
     padding-bottom: 50px;
 }
+
+@media only screen and (max-width: 600px) {
+    .carousel{
+        height:60vh;
+    }
+    
+    .services{
+    display:grid;
+    grid-template-row: repeat(3, 1fr);
+    }
+}
